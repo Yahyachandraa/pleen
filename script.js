@@ -43,9 +43,9 @@ document.querySelector(".tombol").addEventListener('click', function () {
           }).then((result) => {
             /* Read more about isConfirmed, isDenied below */
             if (result.isConfirmed) {
-              Swal.fire(`Makasih ${nama} udah sealalu ada buat aku`).then(function () {
+              Swal.fire(`Makasih ${nama} udah selalu ada buat aku`).then(function () {
                 Swal.fire({
-                  title: 'Mau tau seberapa emang ?',
+                  title: 'Coba geser kekanan,Berapa persen kamu ke aku coba?',
                   icon: 'question',
                   input: 'range',
                   inputLabel: 'Antara 1 - 100 ya',
@@ -57,7 +57,13 @@ document.querySelector(".tombol").addEventListener('click', function () {
                   inputValue: 50
                 }).then((e) => {
                   val = e.value
-                  Swal.fire(`Kamu, ku tak tau harus membalas kebaikanmu dengan apa. Terima kasih kau masih mau bersamaku, kau yang membuat hariku menjadi lebih berwarna dan bermakna bahkan sangat istimewa. Dengan kejujuranmu sepahit apapun itu kalau aku salah kau selalu menegurku.Terima kasih, kau selalu siap sedia mendengarkan cerita keluh kesahku, selalu peduli padaku, bahkan kau juga selalu berkorban untukku. Tidak hanya itu, kau yang selalu mengajarkanku apa arti dari sebuah kesabaran. Suka duka telah kita lalui bersama. Terima kasih banyak semoga tuhan membalas kebaikan yang telah kau lakukan ${val}%`).then(function () {
+                  Swal.fire(`Kamu, ku tak tau harus membalas kebaikanmu dengan apa.
+ Terima kasih kau masih mau bersamaku, kau yang membuat hariku menjadi lebih berwarna dan bermakna
+ bahkan sangat istimewa.
+ Dengan kejujuranmu sepahit apapun itu kalau aku salah kau selalu menegurku.
+Terima kasih, kau selalu siap sedia mendengarkan cerita keluh kesahku, selalu peduli padaku,
+bahkan kau juga selalu berkorban untukku. Tidak hanya itu, kau yang selalu mengajarkanku apa arti dari sebuah kesabaran.
+ Suka duka telah kita lalui bersama. Terima kasih banyak semoga tuhan membalas kebaikan yang telah kau lakukan ${val}%`).then(function () {
                     Swal.fire({
                       title: `Sekarang ${nama} kangen ga sama ${sender}?`,
                       showDenyButton: true,
