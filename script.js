@@ -88,7 +88,7 @@ bahkan kau juga selalu berkorban untukku. Tidak hanya itu, kau yang selalu menga
                 })
               })
             } else if (result.isDenied) {
-              Swal.fire(`Yakin nih udah gamau bersama lagi? :( ${sender}?`, '', 'error').then(function () {
+              Swal.fire(`iih kok kamu gitu ke ${sender} :(`, '', 'error').then(function () {
                 Swal.fire('iih gamau gasuka gellayyy!!!')
               })
             }
