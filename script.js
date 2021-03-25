@@ -57,7 +57,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                   inputValue: 50
                 }).then((e) => {
                   val = e.value
-                  Swal.fire(`${nama},ku tak tau harus membalas kebaikanmu dengan apa.Kau yang membuat hariku menjadi lebih berwarna dan bermakna bahkan sangat istimewa.Dengan kejujuranmu sepahit apapun itu kalau aku salah kau selalu menegurku.Terima kasih, kau selalu siap sedia mendengarkan cerita keluh kesahku, selalu peduli padaku.Terima kasih banyak semoga tuhan membalas kebaikan yang telah kau lakukan ${val}%').then(function () {
+                  Swal.fire(`${nama},ku tak tau harus membalas kebaikanmu dengan apa.Kau yang membuat hariku menjadi lebih berwarna dan bermakna bahkan sangat istimewa.Dengan kejujuranmu sepahit apapun itu kalau aku salah kau selalu menegurku.Terima kasih, kau selalu siap sedia mendengarkan cerita keluh kesahku, selalu peduli padaku.Terima kasih banyak semoga tuhan membalas kebaikan yang telah kau lakukan').then(function () {
                     Swal.fire({
                       title: `Sekarang ${nama} kangen ga sama ${sender}?`,
                       showDenyButton: true,
