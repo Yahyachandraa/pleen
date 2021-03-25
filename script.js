@@ -62,7 +62,7 @@ Kau yang membuat hariku menjadi lebih berwarna dan bermakna bahkan sangat istime
 Dengan kejujuranmu sepahit apapun itu kalau aku salah kau selalu menegurku.
 Terima kasih, kau selalu siap sedia mendengarkan cerita keluh kesahku, selalu peduli padaku,bahkan kau juga selalu berkorban untukku.
 Tidak hanya itu, kau yang selalu mengajarkanku apa arti dari sebuah kesabaran.Suka duka telah kita lalui bersama.
-Terima kasih banyak semoga tuhan membalas kebaikan yang telah kau lakukan%').then(function () {
+Terima kasih banyak semoga tuhan membalas kebaikan yang telah kau lakukan').then(function () {
                     Swal.fire({
                       title: `Sekarang ${nama} kangen ga sama ${sender}?`,
                       showDenyButton: true,
